@@ -73,3 +73,12 @@ round_up = ceil(1.5)
 round_down = floor(1.4)
 print(f"{round_up} {round_down}")
 
+
+#Example Code
+
+first_planet_input = input("Enter the distance from the planet to the sun in km")
+second_planet_input = input("Enter the distance from the planet to the sun in km")
+first_planet = int(first_planet_input)
+second_planet = int(second_planet_input)
+distance_km = abs(second_planet - first_planet)
+print(distance_km)
